@@ -1,0 +1,121 @@
+*{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 81%);
+}
+
+.background{
+    background-image: url("images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: top  right 8%;
+    margin: 10% 6% ;
+} 
+
+.container{
+    border: 2px;
+    border-radius: 2%;
+    margin-bottom: 20px;
+    padding: 6%;
+}
+
+.container .stdinfo{
+    display: flex;
+    align-items: center;
+
+}
+
+.container  .stdinfo img{
+    border-radius: 50%;
+    width: auto ;
+    height:30px;
+    
+}
+
+.container .stdinfo .textinfo{
+    display: inline;
+    padding-left: 15px;
+    
+}
+
+.container .stdinfo .textinfo .stdname{
+    font-size: 12px;
+    color: hsl(0, 0%, 81%);
+
+}
+
+.container .stdinfo .textinfo .desc{
+    font-size: 10px;
+    display: block;
+    color:hsl(0, 0%, 50%);
+}
+
+.container .reg-testimonial{
+    margin-bottom: 0;
+}
+
+.container .bolded-testimonial{
+    padding-top: 10px;
+    padding-right: 20px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.container .reg-testimonial{
+    font-size: 12px;
+    color:hsl(0, 0%, 50%);
+    padding-right: 20px;
+
+}
+
+.container.daniel {
+    background-color: rgba(136, 88, 214, 0.651);
+}
+
+.container.daniel .bolded-testimonial{
+    color: white;
+}
+
+.container.jonathan{
+    background-color: hsl(217, 19%, 35%);
+}
+
+.container.jonathan .bolded-testimonial{
+    color: white;
+}
+
+.container.jeanette{
+    background-color: hsl(0, 0%, 100%);
+}
+
+.container.jeanette .bolded-testimonial{
+    color: hsl(217, 19%, 35%);
+}
+
+.container.jeanette .stdinfo .textinfo .stdname{
+    color: hsl(219, 29%, 14%);
+}
+
+.container.patrick{
+    background-color: hsl(219, 29%, 14%);
+}
+
+.container.patrick .bolded-testimonial{
+    color: white;
+}
+.container.kira{
+    background-color: white;
+}
+
+.container.kira .bolded-testimonial{
+    color: hsl(219, 29%, 14%);
+}
+
+.container.kira .stdinfo .textinfo .stdname{
+    color: hsl(219, 29%, 14%);
+}
+
+
+
+
